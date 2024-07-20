@@ -5,8 +5,8 @@
 //  Created by Khine Myat on 18/07/2024.
 //
 
-import SwiftUI
 import SwiftData
+import SwiftUI
 
 @main
 struct MovieFanApp: App {
@@ -25,7 +25,8 @@ struct MovieFanApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            MoviesView().environmentObject(MovieViewModel())
         }
         .modelContainer(sharedModelContainer)
     }
