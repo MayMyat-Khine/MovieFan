@@ -19,8 +19,9 @@ struct MovieResultModel: Codable {
 
 struct MovieModel: Codable, Identifiable, Hashable {
     enum Constants {
-        static let baseImageUrl = "http://image.tmdb.org/t/p/"
-        static let logoSize = "w500"
+        static let baseImageUrl = "https://image.tmdb.org/t/p/"
+        static let logoSize = "w45"
+        static let detailImgSize = "w500"
     }
 
     let id: Int
@@ -29,8 +30,12 @@ struct MovieModel: Codable, Identifiable, Hashable {
     let releaseDate: String
     let overview: String
 
-    private func getImage() -> String {
+    func getImage() -> String {
         return "\(Constants.baseImageUrl)\(Constants.logoSize)\(imgUrlSuffix)"
+    }
+
+    func getDetailImage() -> String {
+        return "\(Constants.baseImageUrl)\(Constants.detailImgSize)\(imgUrlSuffix)"
     }
 
     enum CodingKeys: String, CodingKey {

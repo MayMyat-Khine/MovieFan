@@ -11,11 +11,19 @@ struct MoviesView: View {
     @EnvironmentObject var movieVM: MovieViewModel
     var body: some View {
         List { // dun know why use list yet
-            ForEach(movieVM.movies, id: \.self) { movie in
-                Text(movie.name)
+            Section {
+                ForEach(movieVM.movies, id: \.self) { movie in
+                    NavigationLink { MovieDetailView(movie: movie)
+                    } label: {
+                        MovieCardView(movie: movie)
+                    }
+                }
+
+            } header: {
+                Text("Movie Listss")
             }
         }
-
+        .navigationTitle("Movies")
         .onAppear {
             movieVM.getMovies()
         }
@@ -23,5 +31,5 @@ struct MoviesView: View {
 }
 
 #Preview {
-    MoviesView()
+    MoviesView().environmentObject(MovieViewModel())
 }

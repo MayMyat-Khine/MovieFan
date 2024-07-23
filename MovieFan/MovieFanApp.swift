@@ -26,7 +26,9 @@ struct MovieFanApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            MoviesView().environmentObject(MovieViewModel())
+            NavigationView {
+                MoviesView().environmentObject(MovieViewModel())
+            }
         }
         .modelContainer(sharedModelContainer)
     }

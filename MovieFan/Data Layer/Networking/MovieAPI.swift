@@ -27,19 +27,13 @@ class MovieApiImpl: MovieAPILogic {
 
     func getMovies(completion: @escaping movieApiResponse) {
         URLCache.shared.removeAllCachedResponses()
-        let header: HTTPHeaders = [
-            "Authorization": Constants.apiKey,
-            "Accept": "application/json" // Replace with your actual token
-        ]
-
-//        AF.request(Constants.domain + Constants.moviePopularUrl)
 
         AF.request(Constants.domain + Constants.moviePopularUrl, method: .get, encoding: URLEncoding.default)
             .validate()
             .responseDecodable(of: MovieResultModel.self) { response in
                 switch response.result {
                 case .success(let movies):
-                    print("Movies \(movies)")
+//                    print("Movies \(movies)")
                     completion(.success(movies.movies))
                 case .failure(let error):
                     print("Error \(error)")
