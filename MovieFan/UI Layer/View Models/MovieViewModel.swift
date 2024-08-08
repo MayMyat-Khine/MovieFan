@@ -59,23 +59,24 @@ class MovieViewModel: ObservableObject {
                         var movieIDListInCD: [Int] = []
 
                         for movieCD in movieCDList {
-                            movieIDListInCD.append(Int(movieCD.id))
-                            let movie = moviesIDDict[Int(movieCD.id)]
-                            movieCD.setValue(movie?.overview, forKey: "overview")
-                            movieCD.setValue(movie?.releaseDate, forKey: "releaseDate")
-                            movieCD.setValue(movie?.imgUrlSuffix, forKey: "imgUrlSuffix")
-                            movieCD.setValue(movie?.name, forKey: "name")
+//                            movieIDListInCD.append(Int(movieCD.id))
+//                            let movie = moviesIDDict[Int(movieCD.id)]
+//                            movieCD.setValue(movie?.overview, forKey: "overview")
+//                            movieCD.setValue(movie?.releaseDate, forKey: "releaseDate")
+//                            movieCD.setValue(movie?.imgUrlSuffix, forKey: "imgUrlSuffix")
+//                            movieCD.setValue(movie?.name, forKey: "name")
+                            managedObjectContext.delete(movieCD)
                         }
                         // 4. add new objects coming from backend/server side
                         for movie in movies {
-                            if !movieIDListInCD.contains(movie.id) {
-                                let movieCD = MovieCD(context: managedObjectContext)
-                                movieCD.name = movie.name
-                                movieCD.id = Int64(movie.id)
-                                movieCD.releaseDate = movie.releaseDate
-                                movieCD.imgUrlSuffix = movie.imgUrlSuffix
-                                movieCD.overview = movie.overview
-                            }
+//                            if !movieIDListInCD.contains(movie.id) {
+                            let movieCD = MovieCD(context: managedObjectContext)
+                            movieCD.name = movie.name
+                            movieCD.id = Int64(movie.id)
+                            movieCD.releaseDate = movie.releaseDate
+                            movieCD.imgUrlSuffix = movie.imgUrlSuffix
+                            movieCD.overview = movie.overview
+//                            }
                         }
                         // 5. save changes
                         try? managedObjectContext.save()
