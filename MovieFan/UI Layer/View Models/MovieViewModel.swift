@@ -21,7 +21,7 @@ class MovieViewModel: ObservableObject {
     init(apiService: MovieAPILogic = MovieApiImpl()) {
         self.apiService = apiService
         // --- start monitoring the connectin ----//
-        networkConnectivity.start(queue: DispatchQueue.global(qos: .userInitiated))
+//        networkConnectivity.start(queue: DispatchQueue.global(qos: .userInitiated))
     }
 
     func getMovies() {

@@ -73,6 +73,11 @@ class MoviePersistentController: ObservableObject {
     }
     
     func fetchFromCoreData() -> [MovieModel] {
+        let movieTitleSortDescriptor = NSSortDescriptor(key: "name", ascending: false)
+        let movieReleaseDateSortDescriptor = NSSortDescriptor(key: "releaseDate", ascending: true)
+        // --- First Check With Name if there are same names then check with data ----//
+        movieCDFetchRequest.sortDescriptors = [movieTitleSortDescriptor, movieReleaseDateSortDescriptor]
+        
         let movieCDList = try? persistentContainer.viewContext.fetch(movieCDFetchRequest)
         print("MovieCD list \(movieCDList)")
         var convertedMovies: [MovieModel] = []
