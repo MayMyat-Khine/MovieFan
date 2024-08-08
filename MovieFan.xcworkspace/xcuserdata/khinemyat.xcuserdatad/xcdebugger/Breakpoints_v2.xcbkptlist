@@ -7,107 +7,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "474D1D48-9E4F-4DEB-A3A9-A0F6AA24D611"
+            uuid = "A99A7E4F-8E3B-43C4-81A4-90F8A234E32E"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "MovieFan/UI Layer/View Models/MovieViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "getMovies()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "474D1D48-9E4F-4DEB-A3A9-A0F6AA24D611 - dd7e20189d0f4a98"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;MovieFan.MovieModel&gt;&gt;, MovieFan.DataError&gt;) -&gt; () in MovieFan.MovieViewModel.getMovies() -&gt; ()"
-                  moduleName = "MovieFan"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khinemyat/Documents/KhineMyat/Testing/MovieFan/MovieFan/UI%20Layer/View%20Models/MovieViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "58"
-                  endingLineNumber = "58">
-               </Location>
-               <Location
-                  uuid = "474D1D48-9E4F-4DEB-A3A9-A0F6AA24D611 - dd7e20189d0f4b1c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;MovieFan.MovieModel&gt;&gt;, MovieFan.DataError&gt;) -&gt; () in MovieFan.MovieViewModel.getMovies() -&gt; ()"
-                  moduleName = "MovieFan"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khinemyat/Documents/KhineMyat/Testing/MovieFan/MovieFan/UI%20Layer/View%20Models/MovieViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E48DEAF3-DB36-47BC-ADA0-491B00BAB836"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MovieFan/UI Layer/View Models/MovieViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
-            landmarkName = "getMovies()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "E48DEAF3-DB36-47BC-ADA0-491B00BAB836 - dd7e20189d0f4860"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;MovieFan.MovieModel&gt;&gt;, MovieFan.DataError&gt;) -&gt; () in MovieFan.MovieViewModel.getMovies() -&gt; ()"
-                  moduleName = "MovieFan"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khinemyat/Documents/KhineMyat/Testing/MovieFan/MovieFan/UI%20Layer/View%20Models/MovieViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "50"
-                  endingLineNumber = "50">
-               </Location>
-               <Location
-                  uuid = "E48DEAF3-DB36-47BC-ADA0-491B00BAB836 - dd7e20189d0f4822"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;MovieFan.MovieModel&gt;&gt;, MovieFan.DataError&gt;) -&gt; () in MovieFan.MovieViewModel.getMovies() -&gt; ()"
-                  moduleName = "MovieFan"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khinemyat/Documents/KhineMyat/Testing/MovieFan/MovieFan/UI%20Layer/View%20Models/MovieViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "48"
-                  endingLineNumber = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7B7E5862-B224-4AE4-93BD-B3045D802CBB"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MovieFan/UI Layer/View Models/MovieViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "getMovies()"
             landmarkType = "7">
          </BreakpointContent>
@@ -115,62 +23,48 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "20EA286E-2F0F-4D15-842E-7DD0F0EA682B"
+            uuid = "A033AB82-3B38-41C8-A475-52684A1BBDCD"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieFan/Data Layer/CoreData/MoviePersistentController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "fetchFromCoreData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0E90F96E-7856-4F48-9E46-4CA302C903D5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MovieFan/Data Layer/CoreData/MoviePersistentController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "updateAndAddServerDataToCoreData(moviesFromServer:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "483B7FE8-C901-4EA1-A5BC-4489AC51DB7F"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "MovieFan/UI Layer/View Models/MovieViewModel.swift"
+            filePath = "MovieFan/Data Layer/CoreData/MoviePersistentController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "getMovies()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "20EA286E-2F0F-4D15-842E-7DD0F0EA682B - dd7e20189d0f490d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;MovieFan.MovieModel&gt;&gt;, MovieFan.DataError&gt;) -&gt; () in MovieFan.MovieViewModel.getMovies() -&gt; ()"
-                  moduleName = "MovieFan"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khinemyat/Documents/KhineMyat/Testing/MovieFan/MovieFan/UI%20Layer/View%20Models/MovieViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39">
-               </Location>
-               <Location
-                  uuid = "20EA286E-2F0F-4D15-842E-7DD0F0EA682B - dd7e20189d0f490d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Result&lt;Swift.Optional&lt;Swift.Array&lt;MovieFan.MovieModel&gt;&gt;, MovieFan.DataError&gt;) -&gt; () in MovieFan.MovieViewModel.getMovies() -&gt; ()"
-                  moduleName = "MovieFan"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/khinemyat/Documents/KhineMyat/Testing/MovieFan/MovieFan/UI%20Layer/View%20Models/MovieViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "39"
-                  endingLineNumber = "39">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "BD65360E-DAC4-4763-B7A4-0354EAB7A62A"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "MovieFan/UI Layer/View Models/MovieViewModel.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "74"
-            endingLineNumber = "74"
-            landmarkName = "getMovies()"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "updateAndAddServerDataToCoreData(moviesFromServer:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

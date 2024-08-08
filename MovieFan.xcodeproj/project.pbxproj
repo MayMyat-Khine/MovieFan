@@ -67,6 +67,7 @@
 		0168ED512C49286200DAA244 /* MovieResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieResultModel.swift; sourceTree = "<group>"; };
 		0168ED532C492C7300DAA244 /* MoviesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesView.swift; sourceTree = "<group>"; };
 		0168ED552C492CA400DAA244 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		01819E542C64903B00210FCA /* Movie 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Movie 2.xcdatamodel"; sourceTree = "<group>"; };
 		01D76E432C5CBD6400F6FC1B /* MovieRatingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRatingModel.swift; sourceTree = "<group>"; };
 		01D76E462C61EB6E00F6FC1B /* Movie.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Movie.xcdatamodel; sourceTree = "<group>"; };
 		01D76E4B2C62013300F6FC1B /* MoviePersistentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviePersistentController.swift; sourceTree = "<group>"; };
@@ -884,9 +885,10 @@
 		01D76E452C61EB6D00F6FC1B /* MovieFan.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				01819E542C64903B00210FCA /* Movie 2.xcdatamodel */,
 				01D76E462C61EB6E00F6FC1B /* Movie.xcdatamodel */,
 			);
-			currentVersion = 01D76E462C61EB6E00F6FC1B /* Movie.xcdatamodel */;
+			currentVersion = 01819E542C64903B00210FCA /* Movie 2.xcdatamodel */;
 			path = MovieFan.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
