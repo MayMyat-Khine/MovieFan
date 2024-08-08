@@ -11,7 +11,12 @@ import SwiftUI
 
 struct MoviesView: View {
     @EnvironmentObject var movieVM: MovieViewModel
-//    @FetchRequest(sortDescriptors: []) var movieCDList: FetchedResults<MovieCD>
+    @FetchRequest(sortDescriptors: [
+        // ------ Sorted The Show Data At UI View Directly ----//
+        SortDescriptor(\.name, order: .reverse),
+        SortDescriptor(\.releaseDate)
+    ])
+    var movieCDList: FetchedResults<MovieCD>
     var body: some View {
         TabView {
             List { // dun know why use list yet
