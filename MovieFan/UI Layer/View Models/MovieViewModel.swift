@@ -10,7 +10,7 @@ import Foundation
 import Network
 
 class MovieViewModel: ObservableObject {
-    private var persistentController = MoviePersistentController()
+    private var persistentController: MoviePersistentController
     private var networkConnectivity = NWPathMonitor()
     @Published private(set) var movies: [MovieModel]?
     @Published private(set) var moviesRatings: [MovieRatingModel] = []
@@ -18,10 +18,11 @@ class MovieViewModel: ObservableObject {
 
     private let apiService: MovieAPILogic
 
-    init(apiService: MovieAPILogic = MovieApiImpl()) {
+    init(apiService: MovieAPILogic = MovieApiImpl(), persistentController: MoviePersistentController = MoviePersistentController()) {
         self.apiService = apiService
+        self.persistentController = persistentController
         // --- start monitoring the connectin ----//
-//        networkConnectivity.start(queue: DispatchQueue.global(qos: .userInitiated))
+        networkConnectivity.start(queue: DispatchQueue.global(qos: .userInitiated))
     }
 
     func getMovies() {

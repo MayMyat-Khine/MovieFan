@@ -109,6 +109,9 @@ struct MoviesView: View {
         .onAppear {
             movieVM.getMovies()
             movieVM.getMoviesRating()
+            let date = UserDefaults.standard.value(forKey: "lastDate")
+            print("Last Date \(date)")
+            UserDefaults.standard.setValue(Date(), forKey: "lastDate")
         }
 //        .onTapGesture {
 //            if let movie = movieVM.movies.first {

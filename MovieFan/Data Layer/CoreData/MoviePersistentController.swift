@@ -59,12 +59,17 @@ class MoviePersistentController: ObservableObject {
             // 4. add new objects coming from backend/server side
             for movie in movies {
                 if !movieIDListInCD.contains(movie.id) {
+                    let genreCD = GenreCD(context: managedObjectContext)
+                    genreCD.id = 1
+                    genreCD.name = "Comedy"
+                    
                     let movieCD = MovieCD(context: managedObjectContext)
                     movieCD.name = movie.name
                     movieCD.id = Int64(movie.id)
                     movieCD.releaseDate = movie.releaseDate
                     //                                movieCD.imgUrlSuffix = movie.imgUrlSuffix
                     movieCD.overview = movie.overview
+                    movieCD.genre = genreCD
                 }
             }
             // 5. save changes
